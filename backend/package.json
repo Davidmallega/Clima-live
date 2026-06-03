@@ -1,0 +1,17 @@
+{
+  "name": "clima-backend",
+  "version": "1.0.0",
+  "description": "Clima en vivo con clave gestionada en Secret Manager",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "engines": { "node": ">=20.0.0" },
+  "dependencies": {
+    "@google-cloud/secret-manager": "^5.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
