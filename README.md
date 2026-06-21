@@ -2,7 +2,6 @@
 
 Aplicación fullstack desplegada en producción. Frontend React que consulta el clima en tiempo real a través de una API en Cloud Run. La clave de OpenWeatherMap vive en Google Secret Manager — nunca en el código, nunca en el frontend, nunca en GitHub.
 
-**Demo en vivo:** https://clima-live.web.app
 
 ---
 
